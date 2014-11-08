@@ -49,19 +49,27 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5;
 }
 
-a, a:link, a:visited, a:hover, a:active, a:focus {
+a:hover,
+a:link, 
+a:visited, 
+a:hover, 
+a:active, 
+a:focus {
 	outline: none;
-	color: #336FA5;
+	color: #F72F72;
 	text-decoration: none;
 }
 
-a:hover {
-	color: #F72F72;
+a {
+	color: #336FA5;
+	text-decoration: none;
 }
 
 img {
 	display: block;
 	border: 0;
+	max-width: 100%;
+	height: auto;
 }
 
 .fluidimg {
@@ -82,6 +90,10 @@ p {
 }
 
 textarea {
+	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+	padding-left: 3px;
+	vertical-align: top; /* Improves readability and alignment in all browsers */
+	width: 100%;
 	resize: vertical;
 }
 
@@ -109,6 +121,53 @@ input:-webkit-autofill {
 
 .cf {
 	*zoom: 1;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	padding: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
 }
 
 
