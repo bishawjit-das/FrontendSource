@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 /* ==== Import css as needed ====*/
 /* @import url('font-awesome.css'); */
 
+=======
+/* 	fonts
+================ */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/*	Global Styles
+==================== */
+>>>>>>> dd580fdda016ded72b3ee9b200e2fe72c20f4957
 * {
 	margin: 0;
 	padding: 0;
@@ -22,6 +31,10 @@ html {
 	-webkit-text-size-adjust: 100%;
 	height: 100%;
 	overflow-x: hidden;
+<<<<<<< HEAD
+=======
+
+>>>>>>> dd580fdda016ded72b3ee9b200e2fe72c20f4957
 }
 
 ::-moz-selection {
@@ -102,7 +115,11 @@ ul, ol {
 	margin: 0 0 20px 0;
 }
 
+<<<<<<< HEAD
 :focus {
+=======
+*:focus {
+>>>>>>> dd580fdda016ded72b3ee9b200e2fe72c20f4957
 	outline: 0;
 }
 
@@ -152,6 +169,7 @@ textarea {
 	border-radius: 0px;
 }
 
+<<<<<<< HEAD
 ::-webkit-input-placeholder {
 	color: #555;
 }
@@ -166,6 +184,28 @@ textarea {
 
 :-ms-input-placeholder {  
 	color: #555;
+=======
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+>>>>>>> dd580fdda016ded72b3ee9b200e2fe72c20f4957
 }
 
 
@@ -191,7 +231,10 @@ textarea {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd580fdda016ded72b3ee9b200e2fe72c20f4957
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px), screen and (max-width: 768px) {
 /* Styles */
